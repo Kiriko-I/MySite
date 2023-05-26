@@ -43,3 +43,27 @@ nav {
 .nav-text {
   color: #FAFAFA;
 }
+
+.main-visual {
+  background-image: url(MySite/mv.png);
+  width: 100%;
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-visual-content {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.main-visual-title {
+  font-size: 64px;
+  color: #FAFAFA;
+  margin-bottom: 10px;
+}
+
+.main-visual-text {
+  font-size: 20px;
+  color: #FAFAFA;
+}
