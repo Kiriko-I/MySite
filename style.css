@@ -71,16 +71,14 @@ nav {
 main {
   text-align: center;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
 }
 
 #portfolio {
   background-color: #ECEFF1;
-  width: 100%;
+  padding-bottom: 90px;
 }
 
-.portfolio-title {
+.section-title {
   font-size: 32px;
   color: #000000;
   padding-top: 90px;
@@ -95,18 +93,18 @@ main {
   border-bottom-width: 3px;
 }
 
-.portfolio-text {
+.section-text {
   margin: 30px auto;
   font-size: 16px;
   color: #000000;
 }
 
 .portfolio-images {
-
   width: 920px;
-  margin: 0 auto 90px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
 }
 
 .portfolio-box {
@@ -146,4 +144,34 @@ main {
 
 .portfolio-box:nth-child(6) {
   background-image: url(MySite/webcamp-mother.png);
+}
+
+.strength-items {
+  margin: 0 auto 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.strength-item {
+  width: 320px;
+}
+
+.strength-item:nth-child(2) {
+  margin: 0 10px;
+}
+
+.icon {
+  font-size: 60px;
+}
+
+.strength-title {
+  font-size: 20px;
+  color: #000000;
+  margin: 10px auto;
+}
+
+.strength-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
 }
