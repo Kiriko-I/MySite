@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #6c6b6b;
 }
 
 ul {
@@ -67,7 +66,6 @@ nav {
 
 main {
   text-align: center;
-  margin: 0 auto;
 }
 
 #portfolio, #profile {
@@ -208,7 +206,7 @@ main {
 .contact-items {
   width: 800px;
   display: flex;
-  margin: auto;
+  margin: 0 auto 90px;
 }
 
 .contact-item {
@@ -223,4 +221,14 @@ main {
 .sns-icon {
   font-size: 50px;
   margin-right: 20px;
+}
+
+footer {
+  height: 60px;
+  background-color: #EC715F;
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+  line-height: 60px;
+  /*行間を親要素の高さに合わせると、その高さの中央にくる*/
 }
