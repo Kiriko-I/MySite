@@ -5,10 +5,6 @@
   color: #6c6b6b;
 }
 
-a {
-  text-decoration: none;
-}
-
 ul {
   list-style: none;
 }
@@ -42,6 +38,7 @@ nav {
 
 .nav-text {
   color: #FAFAFA;
+  text-decoration: none;
 }
 
 .main-visual {
@@ -192,7 +189,7 @@ main {
    width: 512px;
 }
 
-.profile-title {
+.profile-title, .contact-title {
   font-size: 20px;
   margin-bottom: 5px;
   text-align: left;
@@ -206,4 +203,24 @@ main {
 
 .text-bottom {
   margin-bottom: 20px;
+}
+
+.contact-items {
+  width: 800px;
+  display: flex;
+  margin: auto;
+}
+
+.contact-item {
+  width: 400px;
+  text-align-last: center;
+}
+
+/*.contact-way {*/
+/*  text-align: left;*/
+/*}*/
+
+.sns-icon {
+  font-size: 50px;
+  margin-right: 20px;
 }
